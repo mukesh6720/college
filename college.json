@@ -1,0 +1,101 @@
+{
+    "college":[
+        {
+            "tag":"greeting",
+            "patterns":["hi","hey","how are you","is anyone there?","hello","good day"],
+            "responses":["Hey:-)","Hello, thanks for visiting","Hi there, what can I do for you?","Hi there, how can I help?"]
+        },
+        {
+            "tag":"krce",
+            "patterns":["when was krce established?","year of introduction in krce?"],
+            "responses":2008
+        },
+        {
+            "tag":"principal",
+            "patterns":["who is the principal of krce?","principal of krce"],
+            "responses":"Dr.D.Srinivasan"
+        },
+        {
+            "tag":"founder",
+            "patterns":["who is the founder of krce?","founder of krce","chairman of krce"],
+            "responses":"Dr.K.Ramakrishnan"
+        },
+        {
+            "tag":"hostel",
+            "patterns":["Is there a hostel in krce?","hostel available"],
+            "responses":"yes"
+        },
+        {
+            "tag":"courses",
+            "patterns":["courses offered","available courses","courses in krce"],
+            "responses":"CSE,ECE,EEE,MECH,AI,IT,CSBS,B.tech,MBA,M.E,comm,sys.,PSE"
+        },
+        {
+            "tag":"placement",
+            "patterns":["Is placement available in krce?","top recruiting companies for placement in krce?"],
+            "responses":["yes","wipro,tcs,zoho,infosys"]
+        },
+        {
+            "tag":"ground",
+            "patterns":["is there a ground in krce?", "is there a basketball ground in krce?", "is there a volleyball ground in krce?"],
+            "responses":"yes"
+        },
+        {
+            "tag":"day",
+            "patterns":["does krce conduct sports day?","does krce conduct annual day?"],
+            "responses":"yes"
+        },
+        {
+            "tag":"event",
+            "patterns":["does krce conduct cultural event?","name of cultural event"],
+            "responses":"yes various events like talentia,enthusia"
+        },
+        {
+            "tag":"facilities",
+            "patterns":["some facilities in krce","krce facilities"],
+            "responses":"available facilities: canteen,ATM,Gym"
+        },
+        {
+            "tag":"education",
+            "patterns":["is there library available in krce?","library in krce"],
+            "responses":"yes"
+        },
+        {
+            "tag":"lab",
+            "patterns":["how many labs in krce?","no of labs in krce?","lab count","is there ict lab in krce"],
+            "responses":[18,"yes"]
+        },
+        {
+            "tag":"language",
+            "patterns":["ict lab languages","no of languages in ict lab"],
+            "responses":"python,java,c,c++,datastructures"
+        },
+        {
+            "tag":"system",
+            "patterns":["faculty management system","student management system","hostel management system","office management system","library management system"],
+            "responses":["Crystal","camu","Smart hostel","thangam","OPAC@KRCE"]
+        },
+        {
+            "tag":"development",
+            "patterns":["programming skill development","circuit skill development"],
+            "responses":["ICT lab","ICT circuit"]
+        },
+        {
+            "tag":"info",
+            "patterns":["contact information of krce","information about krce"],
+            "responses":"K. Ramakrishnan College of Engineering,NH 45, Samayapuram,Tiruchirappalli-621112,Call us - 0431 - 2670699,krce.trichy@gmail.com"
+        },
+        {
+            "tag": "thanks",
+			"patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+			"responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            
+			"tag": "goodbye",
+			"patterns": ["Bye", "See you later", "Goodbye"],
+			"responses": ["See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."]
+        }
+
+    ]
+}
