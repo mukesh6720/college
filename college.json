@@ -6,64 +6,64 @@
             "responses":["Hey:-)","Hello, thanks for visiting","Hi there, what can I do for you?","Hi there, how can I help?"]
         },
         {
-            "tag":"krce",
+            "tag":"establish",
             "patterns":["when was krce established?","year of introduction in krce?"],
             "responses":2008
         },
         {
             "tag":"principal",
             "patterns":["who is the principal of krce?","principal of krce"],
-            "responses":"Dr.D.Srinivasan"
+            "responses":["Dr.D.Srinivasan"]
         },
         {
             "tag":"founder",
             "patterns":["who is the founder of krce?","founder of krce","chairman of krce"],
-            "responses":"Dr.K.Ramakrishnan"
+            "responses":["Dr.K.Ramakrishnan"]
         },
         {
             "tag":"hostel",
-            "patterns":"Is hostel separated",
-            "responses":"yes, separate hostels with all facilities for both boys and girls"
+            "patterns":["Is hostel separated","hostel available"],
+            "responses":["yes, separate hostels with all facilities for both boys and girls"]
         },
         {
             "tag":"courses",
             "patterns":["courses offered","available courses","courses in krce"],
-            "responses":"CSE,ECE,EEE,MECH,AI,IT,CSBS,B.tech,MBA,M.E,comm,sys.,PSE"
+            "responses":["CSE,ECE,EEE,MECH"]
         },
         {
             "tag":"placement",
             "patterns":["placement available in krce?","companies for placement in krce?"],
-            "responses":"yes, companies like wipro,tcs,zoho,infosys"
+            "responses":["yes, companies like wipro,tcs,zoho,infosys"]
         },
         {
             "tag":"ground",
             "patterns":["is there a ground in krce?", "is there a basketball ground in krce?", "is there a volleyball ground in krce?"],
-            "responses":"yes"
+            "responses":["yes"]
         },
         {
             "tag":"event",
             "patterns":["does krce conduct cultural event?","name of cultural event"],
-            "responses":"yes various events like talentia,enthusia"
+            "responses":["yes various events like talentia,enthusia"]
         },
         {
             "tag":"facilities",
-            "patterns":["some facilities in krce","krce facilities"],
-            "responses":"available facilities: canteen,ATM,Gym"
+            "patterns":["some facilities in krce","krce facilities","facilities in krce"],
+            "responses":["available facilities: canteen,ATM,Gym"]
         },
         {
             "tag":"library",
             "patterns":["is there library available in krce?","library in krce"],
-            "responses":"yes"
+            "responses":["yes"]
         },
         {
-            "tag":"lab",
+            "tag":"labs",
             "patterns":["how many labs in krce?","no of labs in krce?","lab count"],
             "responses":18
         },
         {
-            "tag":"language",
-            "patterns":["ict lab languages","no of languages in ict lab"],
-            "responses":"python,java,c,c++,datastructures"
+            "tag":"languages",
+            "patterns":["ict lab languages","no of languages in ict lab","programming languages"],
+            "responses":["python,java,c,c++,datastructures"]
         },
         {
             "tag":"system",
@@ -73,7 +73,7 @@
         {
             "tag":"info",
             "patterns":["contact information of krce","information about krce"],
-            "responses":"KRCE,samayapuram,Trichy"
+            "responses":["KRCE,samayapuram,Trichy"]
         },
         {
             "tag": "thanks",
@@ -81,10 +81,10 @@
 	    "responses": ["Happy to help!", "Any time!", "My pleasure"]
         },
         {
-            
-	    "tag": "goodbye",
-	    "patterns": ["Bye", "See you later", "Goodbye"],
-	    "responses": ["See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."]
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+	    
         }
 
     ]
