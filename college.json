@@ -22,8 +22,8 @@
         },
         {
             "tag":"hostel",
-            "patterns":["Is there a hostel in krce?","hostel available"],
-            "responses":"yes"
+            "patterns":"Is hostel separated",
+            "responses":"yes, separate hostels with all facilities for both boys and girls"
         },
         {
             "tag":"courses",
@@ -32,17 +32,12 @@
         },
         {
             "tag":"placement",
-            "patterns":["Is placement available in krce?","top recruiting companies for placement in krce?"],
-            "responses":["yes","wipro,tcs,zoho,infosys"]
+            "patterns":["placement available in krce?","companies for placement in krce?"],
+            "responses":"yes, companies like wipro,tcs,zoho,infosys"
         },
         {
             "tag":"ground",
             "patterns":["is there a ground in krce?", "is there a basketball ground in krce?", "is there a volleyball ground in krce?"],
-            "responses":"yes"
-        },
-        {
-            "tag":"day",
-            "patterns":["does krce conduct sports day?","does krce conduct annual day?"],
             "responses":"yes"
         },
         {
@@ -56,14 +51,14 @@
             "responses":"available facilities: canteen,ATM,Gym"
         },
         {
-            "tag":"education",
+            "tag":"library",
             "patterns":["is there library available in krce?","library in krce"],
             "responses":"yes"
         },
         {
             "tag":"lab",
-            "patterns":["how many labs in krce?","no of labs in krce?","lab count","is there ict lab in krce"],
-            "responses":[18,"yes"]
+            "patterns":["how many labs in krce?","no of labs in krce?","lab count"],
+            "responses":18
         },
         {
             "tag":"language",
@@ -76,25 +71,20 @@
             "responses":["Crystal","camu","Smart hostel","thangam","OPAC@KRCE"]
         },
         {
-            "tag":"development",
-            "patterns":["programming skill development","circuit skill development"],
-            "responses":["ICT lab","ICT circuit"]
-        },
-        {
             "tag":"info",
             "patterns":["contact information of krce","information about krce"],
-            "responses":"K. Ramakrishnan College of Engineering,NH 45, Samayapuram,Tiruchirappalli-621112,Call us - 0431 - 2670699,krce.trichy@gmail.com"
+            "responses":"KRCE,samayapuram,Trichy"
         },
         {
             "tag": "thanks",
-			"patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-			"responses": ["Happy to help!", "Any time!", "My pleasure"]
+	    "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+	    "responses": ["Happy to help!", "Any time!", "My pleasure"]
         },
         {
             
-			"tag": "goodbye",
-			"patterns": ["Bye", "See you later", "Goodbye"],
-			"responses": ["See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."]
+	    "tag": "goodbye",
+	    "patterns": ["Bye", "See you later", "Goodbye"],
+	    "responses": ["See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."]
         }
 
     ]
