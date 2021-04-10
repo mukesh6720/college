@@ -7,12 +7,12 @@
         },
         {
             "tag":"establish",
-            "patterns":["when was krce established?","year of introduction in krce?"],
+            "patterns":["when was krce established?","year of introduction in krce?","establish","krce establish"],
             "responses":2008
         },
         {
             "tag":"principal",
-            "patterns":["who is the principal of krce?","principal of krce"],
+            "patterns":["who is the principal of krce?","principal of krce","principal"],
             "responses":["Dr.D.Srinivasan"]
         },
         {
@@ -22,7 +22,7 @@
         },
         {
             "tag":"hostel",
-            "patterns":["Is hostel separated","hostel available"],
+            "patterns":["Is hostel separated","hostel available","hostel"],
             "responses":["yes, separate hostels with all facilities for both boys and girls"]
         },
         {
@@ -37,7 +37,7 @@
         },
         {
             "tag":"ground",
-            "patterns":["is there a ground in krce?", "is there a basketball ground in krce?", "is there a volleyball ground in krce?"],
+            "patterns":["is there a ground in krce?", "is there a basketball ground in krce?", "is there a volleyball ground in krce?","ground in krce"],
             "responses":["yes"]
         },
         {
@@ -47,7 +47,7 @@
         },
         {
             "tag":"facilities",
-            "patterns":["some facilities in krce","krce facilities","facilities in krce"],
+            "patterns":["some facilities in krce","krce facilities","facilities in krce","facility"],
             "responses":["available facilities: canteen,ATM,Gym"]
         },
         {
@@ -57,7 +57,7 @@
         },
         {
             "tag":"labs",
-            "patterns":["how many labs in krce?","no of labs in krce?","lab count"],
+            "patterns":["how many labs in krce?","no of labs in krce?","lab count","labs"],
             "responses":18
         },
         {
@@ -72,7 +72,7 @@
         },
         {
             "tag":"info",
-            "patterns":["contact information of krce","information about krce"],
+            "patterns":["contact information of krce","information about krce","krce info"],
             "responses":["KRCE,samayapuram,Trichy"]
         },
         {
