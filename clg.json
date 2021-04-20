@@ -36,11 +36,6 @@
             "responses":["yes, companies like wipro,tcs,zoho,infosys"]
         },
         {
-            "tag":"ground",
-            "patterns":["is there a ground in krce?", "is there a basketball ground in krce?", "is there a volleyball ground in krce?","ground in krce","ground"],
-            "responses":["yes"]
-        },
-        {
             "tag":"event",
             "patterns":["does krce conduct cultural event?","name of cultural event","event"],
             "responses":["yes various events like talentia,enthusia"]
@@ -61,16 +56,6 @@
             "responses":18
         },
         {
-            "tag":"languages",
-            "patterns":["ict lab languages","no of languages in ict lab","programming languages","languages"],
-            "responses":["python,java,c,c++,datastructures"]
-        },
-        {
-            "tag":"system",
-            "patterns":["faculty management system","student management system","hostel management system","office management system","library management system","system"],
-            "responses":["Crystal","camu","Smart hostel","thangam","OPAC@KRCE"]
-        },
-        {
             "tag":"info",
             "patterns":["contact information of krce","information about krce","krce info","info"],
             "responses":["KRCE,samayapuram,Trichy"]
@@ -79,12 +64,6 @@
             "tag": "thanks",
 	    "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
 	    "responses": ["Happy to help!", "Any time!", "My pleasure"]
-        },
-        {
-            "tag": "goodbye",
-            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
-            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
-	    
         }
 
     ]
